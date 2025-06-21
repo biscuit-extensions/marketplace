@@ -181,3 +181,18 @@
     z-index: -1;
   }
 }
+
+/* bubble animation for gooey button */
+@keyframes bubbleMove {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(150%);
+    opacity: 0;
+  }
+}

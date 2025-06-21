@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { Package, Code2, Zap } from "lucide-react";
 import { Fire } from "@/components/fire";
 import { useExtensions } from "@/hooks/use-extensions";
+import { GooeyButton } from "@/components/gooey-button";
 
 function App() {
   const { extensions, loading, error } = useExtensions();
@@ -68,13 +69,20 @@ function App() {
 
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
-                <Code2 className="h-4 w-4" />
+                <Code2 className="h-4 w-4 text-sky-500" />
                 <span>{activeExtensions.length} Active Extensions</span>
               </div>
               <div className="flex items-center gap-2">
-                <Zap className="h-4 w-4" />
+                <Zap className="h-4 w-4 text-yellow-400" />
                 <span>Hot Reload Support</span>
               </div>
+            </div>
+
+            {/* Call-to-action */}
+            <div className="mt-6">
+              <GooeyButton href="https://github.com/tomlin7/biscuit-extensions?tab=readme-ov-file#-creating-a-new-extension">
+                Build Your Own Extension
+              </GooeyButton>
             </div>
           </div>
           {/* Fire animation */}
