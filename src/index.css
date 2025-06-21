@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* inspired from work by Zed Dash (https://codepen.io/z-/pen/JXVpgp) */
+@layer components {
+  .fire {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    /* max-width: 180px;
+    max-height: 180px; */
+  }
+  .fire .flames {
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    transform: translateX(-50%) rotate(45deg);
+  }
+  .fire .flame {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background-color: #ffdc01;
+    border-radius: 1vw;
+  }
+  .fire .flame:nth-child(odd) {
+    animation: flameodd 1.5s ease-in infinite;
+  }
+  .fire .flame:nth-child(even) {
+    animation: flameeven 1.5s ease-in infinite;
+  }
+  .fire .flame:nth-child(2) {
+    animation-delay: 0.375s;
+  }
+  .fire .flame:nth-child(3) {
+    animation-delay: 0.75s;
+  }
+  .fire .flame:nth-child(4) {
+    animation-delay: 1.125s;
+  }
+
+  .fire .logs {
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 15%;
+  }
+  .fire .logs::before,
+  .fire .logs::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #70392f;
+    border-radius: 1vw;
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  .fire .logs::before {
+    background-color: #612e25;
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+}
+
+@keyframes flameodd {
+  0%,
+  100% {
+    width: 0;
+    height: 0;
+    background-color: #ffdc01;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  25% {
+    width: 100%;
+    height: 100%;
+    right: 1%;
+    bottom: 2%;
+    background-color: #fdac01;
+  }
+  40% {
+    background-color: #fdac01;
+  }
+  100% {
+    background-color: #f73b01;
+    right: 150%;
+    bottom: 170%;
+    z-index: -1;
+  }
+}
+
+@keyframes flameeven {
+  0%,
+  100% {
+    width: 0;
+    height: 0;
+    background-color: #ffdc01;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  25% {
+    width: 100%;
+    height: 100%;
+    right: 2%;
+    bottom: 1%;
+    background-color: #fdac01;
+  }
+  40% {
+    background-color: #fdac01;
+  }
+  100% {
+    background-color: #f73b01;
+    right: 170%;
+    bottom: 150%;
+    z-index: -1;
+  }
+}
