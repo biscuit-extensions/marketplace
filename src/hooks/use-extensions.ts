@@ -40,7 +40,7 @@ export function useExtensions(): UseExtensionsResult {
           const blockRegex = /\[submodule \"([^\"]+)\"\]([\s\S]*?)(?=\n\[|$)/g;
           let blockMatch: RegExpExecArray | null;
           while ((blockMatch = blockRegex.exec(gitmodulesText)) !== null) {
-            const rawName = blockMatch[1].trim(); // e.g., "extensions/rust"
+            // blockMatch[1] contains the full submodule name (e.g. "extensions/rust").
             const body = blockMatch[2];
 
             const pathMatch = body.match(/path\s*=\s*(.+)/);

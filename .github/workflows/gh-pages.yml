@@ -1,0 +1,57 @@
+name: Deploy to GitHub Pages
+
+on:
+  # Re-run when pushing to the default branch or manually.
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Allow this workflow to create and push a gh-pages branch.
+permissions:
+  contents: write # to push to gh-pages
+  pages: write # to deploy to Pages
+  id-token: write # to verify the deployment originates from the workflow
+
+concurrency:
+  # Cancel any in-flight deployments from the same ref.
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: |
+          npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
