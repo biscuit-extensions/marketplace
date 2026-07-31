@@ -1,6 +1,8 @@
 dist
 dist-ssr
 *.local
+.agents/
+skills-lock.json
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,windows,macos,linux,test
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudiocode,windows,macos,linux,test

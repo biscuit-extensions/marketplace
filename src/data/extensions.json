@@ -1,0 +1,1565 @@
+[
+  {
+    "id": "rust",
+    "name": "Rust",
+    "author": "tomlin7",
+    "description": "Rust language support",
+    "version": "0.1.0",
+    "submodule": "rust",
+    "repoUrl": "https://github.com/biscuit-extensions/rust.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "rust",
+      "systems",
+      "lsp"
+    ],
+    "downloads": 6012,
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "id": "clangd",
+    "name": "clangd",
+    "author": "tomlin7",
+    "description": "clangd extension for Biscuit",
+    "version": "0.1.0",
+    "submodule": "clangd",
+    "repoUrl": "https://github.com/biscuit-extensions/clangd",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "c++",
+      "c",
+      "clang",
+      "lsp"
+    ],
+    "downloads": 7369,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "id": "browser",
+    "name": "Browser",
+    "author": "biscuit",
+    "description": "A browser extension for Biscuit - surf the web inside your editor",
+    "version": "0.1.0",
+    "submodule": "browser",
+    "repoUrl": "https://github.com/biscuit-extensions/browser.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 5676,
+    "rating": 4.2,
+    "featured": true
+  },
+  {
+    "id": "json_viewer",
+    "name": "JSON Viewer",
+    "author": "billyeatcookies",
+    "description": "JSON viewer and validator for Biscuit",
+    "version": "0.1.0",
+    "submodule": "json_viewer",
+    "repoUrl": "https://github.com/biscuit-extensions/json_viewer.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 5303,
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": "markdown_tools",
+    "name": "Markdown Tools",
+    "author": "billyeatcookies",
+    "description": "Markdown preview, table formatting, and syntax utilities",
+    "version": "0.1.0",
+    "submodule": "markdown_tools",
+    "repoUrl": "https://github.com/biscuit-extensions/markdown_tools.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "syntax"
+    ],
+    "downloads": 5333,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "id": "yaml_helper",
+    "name": "YAML Helper",
+    "author": "billyeatcookies",
+    "description": "YAML linting, validation, and schema tools",
+    "version": "0.1.0",
+    "submodule": "yaml_helper",
+    "repoUrl": "https://github.com/biscuit-extensions/yaml_helper.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "yaml-helper"
+    ],
+    "downloads": 1286,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "csv_preview",
+    "name": "CSV Preview",
+    "author": "billyeatcookies",
+    "description": "Tabular viewer and editor for CSV and TSV files",
+    "version": "0.1.0",
+    "submodule": "csv_preview",
+    "repoUrl": "https://github.com/biscuit-extensions/csv_preview.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 5759,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "xml_formatter",
+    "name": "XML Formatter",
+    "author": "billyeatcookies",
+    "description": "XML formatting, beautification, and validation",
+    "version": "0.1.0",
+    "submodule": "xml_formatter",
+    "repoUrl": "https://github.com/biscuit-extensions/xml_formatter.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "xml",
+      "beautify",
+      "syntax"
+    ],
+    "downloads": 1282,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "sql_formatter",
+    "name": "SQL Formatter",
+    "author": "billyeatcookies",
+    "description": "SQL query formatting and dialect beautifier",
+    "version": "0.1.0",
+    "submodule": "sql_formatter",
+    "repoUrl": "https://github.com/biscuit-extensions/sql_formatter.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "sql",
+      "database",
+      "queries"
+    ],
+    "downloads": 6969,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "uuid_generator",
+    "name": "UUID Generator",
+    "author": "billyeatcookies",
+    "description": "UUID v4/v7 generator and batch insertion tool",
+    "version": "0.1.0",
+    "submodule": "uuid_generator",
+    "repoUrl": "https://github.com/biscuit-extensions/uuid_generator.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 6679,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "lorem_ipsum",
+    "name": "Lorem Ipsum",
+    "author": "billyeatcookies",
+    "description": "Lorem Ipsum placeholder text and paragraph generator",
+    "version": "0.1.0",
+    "submodule": "lorem_ipsum",
+    "repoUrl": "https://github.com/biscuit-extensions/lorem_ipsum.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "lorem-ipsum"
+    ],
+    "downloads": 9008,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "color_highlighter",
+    "name": "Color Highlighter",
+    "author": "billyeatcookies",
+    "description": "Inline CSS color highlight preview for hex, rgb, and hsl",
+    "version": "0.1.0",
+    "submodule": "color_highlighter",
+    "repoUrl": "https://github.com/biscuit-extensions/color_highlighter.git",
+    "category": "Themes",
+    "tags": [
+      "themes",
+      "colors",
+      "css-hex",
+      "decorator"
+    ],
+    "downloads": 4065,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "todo_tracker",
+    "name": "TODO Tracker",
+    "author": "billyeatcookies",
+    "description": "Scan workspace for TODO, FIXME, and HACK annotations",
+    "version": "0.1.0",
+    "submodule": "todo_tracker",
+    "repoUrl": "https://github.com/biscuit-extensions/todo_tracker.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "todo-tracker"
+    ],
+    "downloads": 811,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "word_counter",
+    "name": "Word Counter",
+    "author": "billyeatcookies",
+    "description": "Real-time word, line, and character count statistics",
+    "version": "0.1.0",
+    "submodule": "word_counter",
+    "repoUrl": "https://github.com/biscuit-extensions/word_counter.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "word-counter"
+    ],
+    "downloads": 3005,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "case_converter",
+    "name": "Case Converter",
+    "author": "billyeatcookies",
+    "description": "Convert identifier case between camel, snake, kebab, and pascal",
+    "version": "0.1.0",
+    "submodule": "case_converter",
+    "repoUrl": "https://github.com/biscuit-extensions/case_converter.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "casing",
+      "camelCase",
+      "snake_case"
+    ],
+    "downloads": 8669,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "base64_tools",
+    "name": "Base64 Tools",
+    "author": "billyeatcookies",
+    "description": "Base64 string encoder, decoder, and data URL parser",
+    "version": "0.1.0",
+    "submodule": "base64_tools",
+    "repoUrl": "https://github.com/biscuit-extensions/base64_tools.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "base64-tools"
+    ],
+    "downloads": 3709,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "hash_generator",
+    "name": "Hash Generator",
+    "author": "billyeatcookies",
+    "description": "Cryptographic hash generator for MD5, SHA256, and SHA512",
+    "version": "0.1.0",
+    "submodule": "hash_generator",
+    "repoUrl": "https://github.com/biscuit-extensions/hash_generator.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "hash-generator"
+    ],
+    "downloads": 2834,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "html_entities",
+    "name": "HTML Entities",
+    "author": "billyeatcookies",
+    "description": "HTML entity encoder, decoder, and escape utility",
+    "version": "0.1.0",
+    "submodule": "html_entities",
+    "repoUrl": "https://github.com/biscuit-extensions/html_entities.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "html-entities"
+    ],
+    "downloads": 7293,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "url_tools",
+    "name": "URL Tools",
+    "author": "billyeatcookies",
+    "description": "URL encoder, decoder, and query string parameter parser",
+    "version": "0.1.0",
+    "submodule": "url_tools",
+    "repoUrl": "https://github.com/biscuit-extensions/url_tools.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "url-tools"
+    ],
+    "downloads": 6057,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "sort_lines",
+    "name": "Sort Lines",
+    "author": "billyeatcookies",
+    "description": "Sort lines alphabetically, numerically, and remove duplicates",
+    "version": "0.1.0",
+    "submodule": "sort_lines",
+    "repoUrl": "https://github.com/biscuit-extensions/sort_lines.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "sort",
+      "lines",
+      "dedupe"
+    ],
+    "downloads": 1202,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "line_numbers_toggle",
+    "name": "Line Numbers Toggle",
+    "author": "billyeatcookies",
+    "description": "Quick toggle between relative, absolute, and hidden line numbers",
+    "version": "0.1.0",
+    "submodule": "line_numbers_toggle",
+    "repoUrl": "https://github.com/biscuit-extensions/line_numbers_toggle.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "editor",
+      "gutter",
+      "line-numbers"
+    ],
+    "downloads": 4004,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "bracket_pair_colorizer",
+    "name": "Bracket Pair Colorizer",
+    "author": "billyeatcookies",
+    "description": "Rainbow bracket pair colorization and delimiter highlighting",
+    "version": "0.1.0",
+    "submodule": "bracket_pair_colorizer",
+    "repoUrl": "https://github.com/biscuit-extensions/bracket_pair_colorizer.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "brackets",
+      "rainbow",
+      "visualization"
+    ],
+    "downloads": 4797,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "code_stats",
+    "name": "Code Stats",
+    "author": "billyeatcookies",
+    "description": "Project code line count, language breakdown, and statistics",
+    "version": "0.1.0",
+    "submodule": "code_stats",
+    "repoUrl": "https://github.com/biscuit-extensions/code_stats.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "syntax"
+    ],
+    "downloads": 8539,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "editor_clock",
+    "name": "Editor Clock",
+    "author": "billyeatcookies",
+    "description": "Statusbar time display and focus clock for Biscuit",
+    "version": "0.1.0",
+    "submodule": "editor_clock",
+    "repoUrl": "https://github.com/biscuit-extensions/editor_clock.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "statusbar",
+      "clock",
+      "productivity"
+    ],
+    "downloads": 5808,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "zen_mode",
+    "name": "Zen Mode",
+    "author": "billyeatcookies",
+    "description": "Distraction-free zen mode for focused writing and coding",
+    "version": "0.1.0",
+    "submodule": "zen_mode",
+    "repoUrl": "https://github.com/biscuit-extensions/zen_mode.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "focus",
+      "minimal",
+      "distraction-free"
+    ],
+    "downloads": 2751,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "minifier",
+    "name": "Minifier",
+    "author": "billyeatcookies",
+    "description": "Fast CSS, JavaScript, and HTML minification utility",
+    "version": "0.1.0",
+    "submodule": "minifier",
+    "repoUrl": "https://github.com/biscuit-extensions/minifier.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "minify",
+      "compression",
+      "bundle"
+    ],
+    "downloads": 6685,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "jwt_debugger",
+    "name": "JWT Debugger",
+    "author": "billyeatcookies",
+    "description": "Decode, verify, and inspect JSON Web Tokens",
+    "version": "0.1.0",
+    "submodule": "jwt_debugger",
+    "repoUrl": "https://github.com/biscuit-extensions/jwt_debugger.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "jwt-debugger"
+    ],
+    "downloads": 4865,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "timestamp_tools",
+    "name": "Timestamp Tools",
+    "author": "billyeatcookies",
+    "description": "Convert Unix timestamps to human readable dates and vice-versa",
+    "version": "0.1.0",
+    "submodule": "timestamp_tools",
+    "repoUrl": "https://github.com/biscuit-extensions/timestamp_tools.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "timestamp-tools"
+    ],
+    "downloads": 2226,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "regex_tester",
+    "name": "Regex Tester",
+    "author": "billyeatcookies",
+    "description": "Interactive regular expression tester and pattern evaluator",
+    "version": "0.1.0",
+    "submodule": "regex_tester",
+    "repoUrl": "https://github.com/biscuit-extensions/regex_tester.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "regex-tester"
+    ],
+    "downloads": 9199,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "diff_viewer",
+    "name": "Diff Viewer",
+    "author": "billyeatcookies",
+    "description": "Side-by-side visual difference viewer for open editors",
+    "version": "0.1.0",
+    "submodule": "diff_viewer",
+    "repoUrl": "https://github.com/biscuit-extensions/diff_viewer.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "diff",
+      "compare",
+      "inspection"
+    ],
+    "downloads": 1040,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "snippet_manager",
+    "name": "Snippet Manager",
+    "author": "billyeatcookies",
+    "description": "Manage, expand, and organize custom user code snippets",
+    "version": "0.1.0",
+    "submodule": "snippet_manager",
+    "repoUrl": "https://github.com/biscuit-extensions/snippet_manager.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "snippet-manager"
+    ],
+    "downloads": 9083,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "hex_viewer",
+    "name": "Hex Viewer",
+    "author": "billyeatcookies",
+    "description": "Hexadecimal viewer and binary file inspector",
+    "version": "0.1.0",
+    "submodule": "hex_viewer",
+    "repoUrl": "https://github.com/biscuit-extensions/hex_viewer.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 1002,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "http_client",
+    "name": "HTTP Client",
+    "author": "billyeatcookies",
+    "description": "Lightweight REST API client and request runner",
+    "version": "0.1.0",
+    "submodule": "http_client",
+    "repoUrl": "https://github.com/biscuit-extensions/http_client.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "http-client"
+    ],
+    "downloads": 4242,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "env_linter",
+    "name": "Env Linter",
+    "author": "billyeatcookies",
+    "description": "Syntax checker and linter for .env environment files",
+    "version": "0.1.0",
+    "submodule": "env_linter",
+    "repoUrl": "https://github.com/biscuit-extensions/env_linter.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "dotenv",
+      "linter",
+      "security"
+    ],
+    "downloads": 8422,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "git_changelog_generator",
+    "name": "Git Changelog Generator",
+    "author": "billyeatcookies",
+    "description": "Generate clean release changelogs from git commit logs",
+    "version": "0.1.0",
+    "submodule": "git_changelog_generator",
+    "repoUrl": "https://github.com/biscuit-extensions/git_changelog_generator.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "changelog",
+      "commits",
+      "releases"
+    ],
+    "downloads": 587,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "file_templates",
+    "name": "File Templates",
+    "author": "billyeatcookies",
+    "description": "Boilerplate code templates for new classes and modules",
+    "version": "0.1.0",
+    "submodule": "file_templates",
+    "repoUrl": "https://github.com/biscuit-extensions/file_templates.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "file-templates"
+    ],
+    "downloads": 2890,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "indent_guide_pro",
+    "name": "Indent Guide Pro",
+    "author": "billyeatcookies",
+    "description": "Enhanced indentation guides and block scope visualizers",
+    "version": "0.1.0",
+    "submodule": "indent_guide_pro",
+    "repoUrl": "https://github.com/biscuit-extensions/indent_guide_pro.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "indentation",
+      "guides",
+      "scope"
+    ],
+    "downloads": 4679,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "whitespace_cleaner",
+    "name": "Whitespace Cleaner",
+    "author": "billyeatcookies",
+    "description": "Strip trailing whitespace and normalize end-of-line characters",
+    "version": "0.1.0",
+    "submodule": "whitespace_cleaner",
+    "repoUrl": "https://github.com/biscuit-extensions/whitespace_cleaner.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "cleaner",
+      "eol",
+      "trim"
+    ],
+    "downloads": 2888,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "spell_checker",
+    "name": "Spell Checker",
+    "author": "billyeatcookies",
+    "description": "Inline spelling checker for source code comments and docstrings",
+    "version": "0.1.0",
+    "submodule": "spell_checker",
+    "repoUrl": "https://github.com/biscuit-extensions/spell_checker.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "spell-checker"
+    ],
+    "downloads": 3598,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "emmet_biscuit",
+    "name": "Emmet Biscuit",
+    "author": "billyeatcookies",
+    "description": "Emmet abbreviation expansion for rapid HTML and CSS authoring",
+    "version": "0.1.0",
+    "submodule": "emmet_biscuit",
+    "repoUrl": "https://github.com/biscuit-extensions/emmet_biscuit.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "emmet",
+      "html",
+      "snippets"
+    ],
+    "downloads": 1222,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "bookmarks",
+    "name": "Bookmarks",
+    "author": "billyeatcookies",
+    "description": "Set, clear, and jump between line bookmarks in files",
+    "version": "0.1.0",
+    "submodule": "bookmarks",
+    "repoUrl": "https://github.com/biscuit-extensions/bookmarks.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "navigation",
+      "bookmarks",
+      "jump"
+    ],
+    "downloads": 4089,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "ascii_art",
+    "name": "ASCII Art",
+    "author": "billyeatcookies",
+    "description": "Generate ASCII art text banners and box drawings",
+    "version": "0.1.0",
+    "submodule": "ascii_art",
+    "repoUrl": "https://github.com/biscuit-extensions/ascii_art.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "ascii",
+      "banners",
+      "creative"
+    ],
+    "downloads": 4533,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "git_status_bar",
+    "name": "Git Status Bar",
+    "author": "billyeatcookies",
+    "description": "Git branch, ahead/behind count, and dirty status in statusbar",
+    "version": "0.1.0",
+    "submodule": "git_status_bar",
+    "repoUrl": "https://github.com/biscuit-extensions/git_status_bar.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "statusbar",
+      "branch",
+      "vcs"
+    ],
+    "downloads": 3377,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "pomodoro_timer",
+    "name": "Pomodoro Timer",
+    "author": "billyeatcookies",
+    "description": "Productivity Pomodoro focus and break interval timer",
+    "version": "0.1.0",
+    "submodule": "pomodoro_timer",
+    "repoUrl": "https://github.com/biscuit-extensions/pomodoro_timer.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "pomodoro-timer"
+    ],
+    "downloads": 1537,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "auto_save",
+    "name": "Auto Save",
+    "author": "billyeatcookies",
+    "description": "Configurable background auto-save timer for open buffers",
+    "version": "0.1.0",
+    "submodule": "auto_save",
+    "repoUrl": "https://github.com/biscuit-extensions/auto_save.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "auto-save"
+    ],
+    "downloads": 4421,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "auto_rename_tag",
+    "name": "Auto Rename Tag",
+    "author": "billyeatcookies",
+    "description": "Automatically synchronize opening and closing HTML/XML tags",
+    "version": "0.1.0",
+    "submodule": "auto_rename_tag",
+    "repoUrl": "https://github.com/biscuit-extensions/auto_rename_tag.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "html",
+      "xml",
+      "sync"
+    ],
+    "downloads": 6219,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "path_autocomplete",
+    "name": "Path Autocomplete",
+    "author": "billyeatcookies",
+    "description": "File and directory path completion within string literals",
+    "version": "0.1.0",
+    "submodule": "path_autocomplete",
+    "repoUrl": "https://github.com/biscuit-extensions/path_autocomplete.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "path-autocomplete"
+    ],
+    "downloads": 7678,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "color_picker",
+    "name": "Color Picker",
+    "author": "billyeatcookies",
+    "description": "Integrated color picker dialog and hex palette selector",
+    "version": "0.1.0",
+    "submodule": "color_picker",
+    "repoUrl": "https://github.com/biscuit-extensions/color_picker.git",
+    "category": "Themes",
+    "tags": [
+      "themes",
+      "color-picker",
+      "palette",
+      "designer"
+    ],
+    "downloads": 4250,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "calculator",
+    "name": "Calculator",
+    "author": "billyeatcookies",
+    "description": "Inline arithmetic expression evaluator and math tools",
+    "version": "0.1.0",
+    "submodule": "calculator",
+    "repoUrl": "https://github.com/biscuit-extensions/calculator.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "calculator"
+    ],
+    "downloads": 6254,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "dockerfile_helper",
+    "name": "Dockerfile Helper",
+    "author": "billyeatcookies",
+    "description": "Syntax highlighting and snippet helpers for Dockerfiles",
+    "version": "0.1.0",
+    "submodule": "dockerfile_helper",
+    "repoUrl": "https://github.com/biscuit-extensions/dockerfile_helper.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "docker",
+      "devops",
+      "syntax"
+    ],
+    "downloads": 3181,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "quick_notes",
+    "name": "Quick Notes",
+    "author": "billyeatcookies",
+    "description": "Scratchpad panel for quick thoughts and temporary code snippets",
+    "version": "0.1.0",
+    "submodule": "quick_notes",
+    "repoUrl": "https://github.com/biscuit-extensions/quick_notes.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 4327,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "code_snapshot",
+    "name": "Code Snapshot",
+    "author": "billyeatcookies",
+    "description": "Export beautifully formatted code snippets as card images",
+    "version": "0.1.0",
+    "submodule": "code_snapshot",
+    "repoUrl": "https://github.com/biscuit-extensions/code_snapshot.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "export",
+      "cards",
+      "share"
+    ],
+    "downloads": 5166,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "project_dashboard",
+    "name": "Project Dashboard",
+    "author": "billyeatcookies",
+    "description": "Project overview with git status, recent files, and stats",
+    "version": "0.1.0",
+    "submodule": "project_dashboard",
+    "repoUrl": "https://github.com/biscuit-extensions/project_dashboard.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "dashboard",
+      "overview",
+      "metrics"
+    ],
+    "downloads": 6186,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "author": "biscuit-extensions",
+    "description": "Python language support, virtual environment manager, and script runner",
+    "version": "0.1.0",
+    "submodule": "python",
+    "repoUrl": "https://github.com/biscuit-extensions/python.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "python",
+      "venv",
+      "scripting"
+    ],
+    "downloads": 9112,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "prettier",
+    "name": "Prettier",
+    "author": "biscuit-extensions",
+    "description": "Multi-language opinionated code formatter for JS, TS, HTML, CSS, JSON, and Markdown",
+    "version": "0.1.0",
+    "submodule": "prettier",
+    "repoUrl": "https://github.com/biscuit-extensions/prettier.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "prettier",
+      "code-style",
+      "multi-lang"
+    ],
+    "downloads": 2493,
+    "rating": 4.7,
+    "featured": true
+  },
+  {
+    "id": "eslint",
+    "name": "ESLint",
+    "author": "biscuit-extensions",
+    "description": "JavaScript and TypeScript linter and code quality scanner",
+    "version": "0.1.0",
+    "submodule": "eslint",
+    "repoUrl": "https://github.com/biscuit-extensions/eslint.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "eslint",
+      "linter",
+      "javascript"
+    ],
+    "downloads": 5691,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "gitlens",
+    "name": "GitLens",
+    "author": "biscuit-extensions",
+    "description": "Git supercharged — inline blame annotations, file history, and commit navigation",
+    "version": "0.1.0",
+    "submodule": "gitlens",
+    "repoUrl": "https://github.com/biscuit-extensions/gitlens.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "blame",
+      "history",
+      "vcs"
+    ],
+    "downloads": 2856,
+    "rating": 4.2,
+    "featured": true
+  },
+  {
+    "id": "live_server",
+    "name": "Live Server",
+    "author": "biscuit-extensions",
+    "description": "Local development server with live reload for static and dynamic web pages",
+    "version": "0.1.0",
+    "submodule": "live_server",
+    "repoUrl": "https://github.com/biscuit-extensions/live_server.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "live-server"
+    ],
+    "downloads": 7470,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "better_comments",
+    "name": "Better Comments",
+    "author": "biscuit-extensions",
+    "description": "Human-friendly colorful comment highlighting for alerts, queries, and todos",
+    "version": "0.1.0",
+    "submodule": "better_comments",
+    "repoUrl": "https://github.com/biscuit-extensions/better_comments.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "comments",
+      "annotations",
+      "todos"
+    ],
+    "downloads": 3347,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "error_lens",
+    "name": "Error Lens",
+    "author": "biscuit-extensions",
+    "description": "Inline error and warning diagnostic messages directly on editor code lines",
+    "version": "0.1.0",
+    "submodule": "error_lens",
+    "repoUrl": "https://github.com/biscuit-extensions/error_lens.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "inline-errors",
+      "diagnostics",
+      "developer-experience"
+    ],
+    "downloads": 1405,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "author": "biscuit-extensions",
+    "description": "Subtly change workspace accent colors to distinguish between projects",
+    "version": "0.1.0",
+    "submodule": "peacock",
+    "repoUrl": "https://github.com/biscuit-extensions/peacock.git",
+    "category": "Themes",
+    "tags": [
+      "themes",
+      "accent-colors",
+      "workspace",
+      "visual"
+    ],
+    "downloads": 8808,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "id": "turbo_console_log",
+    "name": "Turbo Console Log",
+    "author": "biscuit-extensions",
+    "description": "Automated insertion of meaningful debug print and console log statements",
+    "version": "0.1.0",
+    "submodule": "turbo_console_log",
+    "repoUrl": "https://github.com/biscuit-extensions/turbo_console_log.git",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "smart-logging",
+      "debugging",
+      "automation"
+    ],
+    "downloads": 3081,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "auto_close_tag",
+    "name": "Auto Close Tag",
+    "author": "biscuit-extensions",
+    "description": "Automatically insert closing HTML and XML tags when typing an opening tag",
+    "version": "0.1.0",
+    "submodule": "auto_close_tag",
+    "repoUrl": "https://github.com/biscuit-extensions/auto_close_tag.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "html",
+      "xml",
+      "auto-complete"
+    ],
+    "downloads": 2643,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "code_runner",
+    "name": "Code Runner",
+    "author": "biscuit-extensions",
+    "description": "Run code snippets or files for multiple languages with one shortcut",
+    "version": "0.1.0",
+    "submodule": "code_runner",
+    "repoUrl": "https://github.com/biscuit-extensions/code_runner.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "syntax"
+    ],
+    "downloads": 3958,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "git_graph",
+    "name": "Git Graph",
+    "author": "biscuit-extensions",
+    "description": "Visual commit history graph and interactive branch DAG tree viewer",
+    "version": "0.1.0",
+    "submodule": "git_graph",
+    "repoUrl": "https://github.com/biscuit-extensions/git_graph.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "graph",
+      "dag",
+      "branches"
+    ],
+    "downloads": 367,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "remote_ssh",
+    "name": "Remote SSH",
+    "author": "biscuit-extensions",
+    "description": "Manage SSH hosts, port tunnels, and remote workspace connections",
+    "version": "0.1.0",
+    "submodule": "remote_ssh",
+    "repoUrl": "https://github.com/biscuit-extensions/remote_ssh.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "remote-ssh"
+    ],
+    "downloads": 3539,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "editorconfig",
+    "name": "EditorConfig",
+    "author": "biscuit-extensions",
+    "description": "Enforce consistent coding styles and whitespace formatting across projects",
+    "version": "0.1.0",
+    "submodule": "editorconfig",
+    "repoUrl": "https://github.com/biscuit-extensions/editorconfig.git",
+    "category": "Formatters",
+    "tags": [
+      "formatters",
+      "editorconfig",
+      "whitespace",
+      "rules"
+    ],
+    "downloads": 6037,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "import_cost",
+    "name": "Import Cost",
+    "author": "biscuit-extensions",
+    "description": "Display package import and bundle sizes inline next to import statements",
+    "version": "0.1.0",
+    "submodule": "import_cost",
+    "repoUrl": "https://github.com/biscuit-extensions/import_cost.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "import-cost"
+    ],
+    "downloads": 4107,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "auto_import",
+    "name": "Auto Import",
+    "author": "biscuit-extensions",
+    "description": "Automatically scan workspace symbols and generate missing import statements",
+    "version": "0.1.0",
+    "submodule": "auto_import",
+    "repoUrl": "https://github.com/biscuit-extensions/auto_import.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "auto-import"
+    ],
+    "downloads": 5015,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "quokka",
+    "name": "Quokka",
+    "author": "biscuit-extensions",
+    "description": "Live interactive scratchpad runner with instant expression evaluation",
+    "version": "0.1.0",
+    "submodule": "quokka",
+    "repoUrl": "https://github.com/biscuit-extensions/quokka.git",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "interactive-eval",
+      "scratchpad",
+      "smart-runner"
+    ],
+    "downloads": 6754,
+    "rating": 4.4,
+    "featured": false
+  },
+  {
+    "id": "settings_sync",
+    "name": "Settings Sync",
+    "author": "biscuit-extensions",
+    "description": "Synchronize settings, keybindings, and extensions across devices",
+    "version": "0.1.0",
+    "submodule": "settings_sync",
+    "repoUrl": "https://github.com/biscuit-extensions/settings_sync.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "settings-sync"
+    ],
+    "downloads": 4381,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "html_css_support",
+    "name": "HTML CSS Support",
+    "author": "biscuit-extensions",
+    "description": "CSS class and ID completion for HTML, JSX, and template files",
+    "version": "0.1.0",
+    "submodule": "html_css_support",
+    "repoUrl": "https://github.com/biscuit-extensions/html_css_support.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "html",
+      "css",
+      "intellisense"
+    ],
+    "downloads": 4307,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "live_share",
+    "name": "Live Share",
+    "author": "biscuit-extensions",
+    "description": "Collaborative real-time editing and paired coding workspace sharing",
+    "version": "0.1.0",
+    "submodule": "live_share",
+    "repoUrl": "https://github.com/biscuit-extensions/live_share.git",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "downloads": 5632,
+    "rating": 4.6,
+    "featured": false
+  },
+  {
+    "id": "sonarlint",
+    "name": "SonarLint",
+    "author": "biscuit-extensions",
+    "description": "Scan source code for bugs, code smells, and security vulnerabilities",
+    "version": "0.1.0",
+    "submodule": "sonarlint",
+    "repoUrl": "https://github.com/biscuit-extensions/sonarlint.git",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "code-smells",
+      "security-scan",
+      "smart-lint"
+    ],
+    "downloads": 950,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "material_icon_theme",
+    "name": "Material Icon Theme",
+    "author": "biscuit-extensions",
+    "description": "Material design icon set and file association mappings for Biscuit",
+    "version": "0.1.0",
+    "submodule": "material_icon_theme",
+    "repoUrl": "https://github.com/biscuit-extensions/material_icon_theme.git",
+    "category": "Themes",
+    "tags": [
+      "themes",
+      "icons",
+      "material",
+      "customization"
+    ],
+    "downloads": 5351,
+    "rating": 4.5,
+    "featured": true
+  },
+  {
+    "id": "css_peek",
+    "name": "CSS Peek",
+    "author": "biscuit-extensions",
+    "description": "Jump directly to CSS selector definitions from HTML classes and IDs",
+    "version": "0.1.0",
+    "submodule": "css_peek",
+    "repoUrl": "https://github.com/biscuit-extensions/css_peek.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "css",
+      "navigation",
+      "classes"
+    ],
+    "downloads": 929,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "npm_intellisense",
+    "name": "npm Intellisense",
+    "author": "biscuit-extensions",
+    "description": "Autocomplete npm module imports from package.json and node_modules",
+    "version": "0.1.0",
+    "submodule": "npm_intellisense",
+    "repoUrl": "https://github.com/biscuit-extensions/npm_intellisense.git",
+    "category": "Tools",
+    "tags": [
+      "tools",
+      "npm-intellisense"
+    ],
+    "downloads": 4727,
+    "rating": 4.9,
+    "featured": false
+  },
+  {
+    "id": "jupyter",
+    "name": "Jupyter",
+    "author": "biscuit-extensions",
+    "description": "Interactive Jupyter notebook runner and cell-based Python execution",
+    "version": "0.1.0",
+    "submodule": "jupyter",
+    "repoUrl": "https://github.com/biscuit-extensions/jupyter.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "jupyter",
+      "notebooks",
+      "data-science"
+    ],
+    "downloads": 5891,
+    "rating": 4.5,
+    "featured": false
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "author": "biscuit-extensions",
+    "description": "Manage Docker containers, images, volumes, and compose environments",
+    "version": "0.1.0",
+    "submodule": "docker",
+    "repoUrl": "https://github.com/biscuit-extensions/docker.git",
+    "category": "AI",
+    "tags": [
+      "ai",
+      "productivity"
+    ],
+    "downloads": 3604,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "id": "tailwind_css",
+    "name": "Tailwind CSS IntelliSense",
+    "author": "biscuit-extensions",
+    "description": "Intelligent Tailwind CSS class autocompletion, hover previews, and linting",
+    "version": "0.1.0",
+    "submodule": "tailwind_css",
+    "repoUrl": "https://github.com/biscuit-extensions/tailwind_css.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "tailwind",
+      "css",
+      "utility"
+    ],
+    "downloads": 8448,
+    "rating": 4.6,
+    "featured": true
+  },
+  {
+    "id": "thunder_client",
+    "name": "Thunder Client",
+    "author": "biscuit-extensions",
+    "description": "Lightweight GUI REST API client with request runner and collections",
+    "version": "0.1.0",
+    "submodule": "thunder_client",
+    "repoUrl": "https://github.com/biscuit-extensions/thunder_client.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "interface"
+    ],
+    "downloads": 8530,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "live_sass",
+    "name": "Live Sass Compiler",
+    "author": "biscuit-extensions",
+    "description": "Compile Sass and SCSS files to CSS with live reload and sourcemap support",
+    "version": "0.1.0",
+    "submodule": "live_sass",
+    "repoUrl": "https://github.com/biscuit-extensions/live_sass.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "sass",
+      "scss",
+      "compiler"
+    ],
+    "downloads": 1545,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "drawio",
+    "name": "Draw.io Integration",
+    "author": "biscuit-extensions",
+    "description": "Interactive diagram and flowchart designer directly inside Biscuit",
+    "version": "0.1.0",
+    "submodule": "drawio",
+    "repoUrl": "https://github.com/biscuit-extensions/drawio.git",
+    "category": "UI",
+    "tags": [
+      "ui",
+      "diagrams",
+      "flowcharts",
+      "visual-editor"
+    ],
+    "downloads": 4370,
+    "rating": 4.8,
+    "featured": true
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "author": "biscuit-extensions",
+    "description": "Rich Go language support, test runner, formatting, and build tools",
+    "version": "0.1.0",
+    "submodule": "go",
+    "repoUrl": "https://github.com/biscuit-extensions/go.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "go",
+      "golang",
+      "lsp",
+      "backend"
+    ],
+    "downloads": 3624,
+    "rating": 4.2,
+    "featured": false
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "author": "biscuit-extensions",
+    "description": "C# language support, .NET build runner, and solution management",
+    "version": "0.1.0",
+    "submodule": "csharp",
+    "repoUrl": "https://github.com/biscuit-extensions/csharp.git",
+    "category": "Languages",
+    "tags": [
+      "languages",
+      "c#",
+      "dotnet",
+      "microsoft",
+      "lsp"
+    ],
+    "downloads": 3525,
+    "rating": 4.3,
+    "featured": false
+  },
+  {
+    "id": "github_pull_requests",
+    "name": "GitHub Pull Requests",
+    "author": "biscuit-extensions",
+    "description": "Review and manage GitHub pull requests and issues within Biscuit",
+    "version": "0.1.0",
+    "submodule": "github_pull_requests",
+    "repoUrl": "https://github.com/biscuit-extensions/github_pull_requests.git",
+    "category": "Git",
+    "tags": [
+      "git",
+      "github",
+      "pull-requests",
+      "reviews"
+    ],
+    "downloads": 4210,
+    "rating": 4.4,
+    "featured": false
+  }
+]
