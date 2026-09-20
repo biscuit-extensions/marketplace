@@ -51,7 +51,7 @@ export function Footer() {
           </a>
 
           <a
-            href="https://github.com/billyeatcookies/biscuit"
+            href="https://github.com/tomlin7/biscuit"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-zinc-200 transition-colors inline-flex items-center gap-1.5"

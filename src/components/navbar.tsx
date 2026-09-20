@@ -54,7 +54,7 @@ export function Navbar({
         {/* Right Navigation */}
         <nav className="flex items-center gap-4 text-xs font-mono text-zinc-400">
           <a
-            href="https://github.com/billyeatcookies/biscuit"
+            href="https://github.com/tomlin7/biscuit"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-1.5 hover:text-white transition-colors"

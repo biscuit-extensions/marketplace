@@ -58,7 +58,7 @@
   {
     "id": "json_viewer",
     "name": "JSON Viewer",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "JSON viewer and validator for Biscuit",
     "version": "0.1.0",
     "submodule": "json_viewer",
@@ -75,7 +75,7 @@
   {
     "id": "markdown_tools",
     "name": "Markdown Tools",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Markdown preview, table formatting, and syntax utilities",
     "version": "0.1.0",
     "submodule": "markdown_tools",
@@ -92,7 +92,7 @@
   {
     "id": "yaml_helper",
     "name": "YAML Helper",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "YAML linting, validation, and schema tools",
     "version": "0.1.0",
     "submodule": "yaml_helper",
@@ -109,7 +109,7 @@
   {
     "id": "csv_preview",
     "name": "CSV Preview",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Tabular viewer and editor for CSV and TSV files",
     "version": "0.1.0",
     "submodule": "csv_preview",
@@ -126,7 +126,7 @@
   {
     "id": "xml_formatter",
     "name": "XML Formatter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "XML formatting, beautification, and validation",
     "version": "0.1.0",
     "submodule": "xml_formatter",
@@ -145,7 +145,7 @@
   {
     "id": "sql_formatter",
     "name": "SQL Formatter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "SQL query formatting and dialect beautifier",
     "version": "0.1.0",
     "submodule": "sql_formatter",
@@ -164,7 +164,7 @@
   {
     "id": "uuid_generator",
     "name": "UUID Generator",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "UUID v4/v7 generator and batch insertion tool",
     "version": "0.1.0",
     "submodule": "uuid_generator",
@@ -181,7 +181,7 @@
   {
     "id": "lorem_ipsum",
     "name": "Lorem Ipsum",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Lorem Ipsum placeholder text and paragraph generator",
     "version": "0.1.0",
     "submodule": "lorem_ipsum",
@@ -198,7 +198,7 @@
   {
     "id": "color_highlighter",
     "name": "Color Highlighter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Inline CSS color highlight preview for hex, rgb, and hsl",
     "version": "0.1.0",
     "submodule": "color_highlighter",
@@ -217,7 +217,7 @@
   {
     "id": "todo_tracker",
     "name": "TODO Tracker",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Scan workspace for TODO, FIXME, and HACK annotations",
     "version": "0.1.0",
     "submodule": "todo_tracker",
@@ -234,7 +234,7 @@
   {
     "id": "word_counter",
     "name": "Word Counter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Real-time word, line, and character count statistics",
     "version": "0.1.0",
     "submodule": "word_counter",
@@ -251,7 +251,7 @@
   {
     "id": "case_converter",
     "name": "Case Converter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Convert identifier case between camel, snake, kebab, and pascal",
     "version": "0.1.0",
     "submodule": "case_converter",
@@ -270,7 +270,7 @@
   {
     "id": "base64_tools",
     "name": "Base64 Tools",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Base64 string encoder, decoder, and data URL parser",
     "version": "0.1.0",
     "submodule": "base64_tools",
@@ -287,7 +287,7 @@
   {
     "id": "hash_generator",
     "name": "Hash Generator",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Cryptographic hash generator for MD5, SHA256, and SHA512",
     "version": "0.1.0",
     "submodule": "hash_generator",
@@ -304,7 +304,7 @@
   {
     "id": "html_entities",
     "name": "HTML Entities",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "HTML entity encoder, decoder, and escape utility",
     "version": "0.1.0",
     "submodule": "html_entities",
@@ -321,7 +321,7 @@
   {
     "id": "url_tools",
     "name": "URL Tools",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "URL encoder, decoder, and query string parameter parser",
     "version": "0.1.0",
     "submodule": "url_tools",
@@ -338,7 +338,7 @@
   {
     "id": "sort_lines",
     "name": "Sort Lines",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Sort lines alphabetically, numerically, and remove duplicates",
     "version": "0.1.0",
     "submodule": "sort_lines",
@@ -357,7 +357,7 @@
   {
     "id": "line_numbers_toggle",
     "name": "Line Numbers Toggle",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Quick toggle between relative, absolute, and hidden line numbers",
     "version": "0.1.0",
     "submodule": "line_numbers_toggle",
@@ -376,7 +376,7 @@
   {
     "id": "bracket_pair_colorizer",
     "name": "Bracket Pair Colorizer",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Rainbow bracket pair colorization and delimiter highlighting",
     "version": "0.1.0",
     "submodule": "bracket_pair_colorizer",
@@ -395,7 +395,7 @@
   {
     "id": "code_stats",
     "name": "Code Stats",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Project code line count, language breakdown, and statistics",
     "version": "0.1.0",
     "submodule": "code_stats",
@@ -412,7 +412,7 @@
   {
     "id": "editor_clock",
     "name": "Editor Clock",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Statusbar time display and focus clock for Biscuit",
     "version": "0.1.0",
     "submodule": "editor_clock",
@@ -431,7 +431,7 @@
   {
     "id": "zen_mode",
     "name": "Zen Mode",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Distraction-free zen mode for focused writing and coding",
     "version": "0.1.0",
     "submodule": "zen_mode",
@@ -450,7 +450,7 @@
   {
     "id": "minifier",
     "name": "Minifier",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Fast CSS, JavaScript, and HTML minification utility",
     "version": "0.1.0",
     "submodule": "minifier",
@@ -469,7 +469,7 @@
   {
     "id": "jwt_debugger",
     "name": "JWT Debugger",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Decode, verify, and inspect JSON Web Tokens",
     "version": "0.1.0",
     "submodule": "jwt_debugger",
@@ -486,7 +486,7 @@
   {
     "id": "timestamp_tools",
     "name": "Timestamp Tools",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Convert Unix timestamps to human readable dates and vice-versa",
     "version": "0.1.0",
     "submodule": "timestamp_tools",
@@ -503,7 +503,7 @@
   {
     "id": "regex_tester",
     "name": "Regex Tester",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Interactive regular expression tester and pattern evaluator",
     "version": "0.1.0",
     "submodule": "regex_tester",
@@ -520,7 +520,7 @@
   {
     "id": "diff_viewer",
     "name": "Diff Viewer",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Side-by-side visual difference viewer for open editors",
     "version": "0.1.0",
     "submodule": "diff_viewer",
@@ -539,7 +539,7 @@
   {
     "id": "snippet_manager",
     "name": "Snippet Manager",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Manage, expand, and organize custom user code snippets",
     "version": "0.1.0",
     "submodule": "snippet_manager",
@@ -556,7 +556,7 @@
   {
     "id": "hex_viewer",
     "name": "Hex Viewer",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Hexadecimal viewer and binary file inspector",
     "version": "0.1.0",
     "submodule": "hex_viewer",
@@ -573,7 +573,7 @@
   {
     "id": "http_client",
     "name": "HTTP Client",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Lightweight REST API client and request runner",
     "version": "0.1.0",
     "submodule": "http_client",
@@ -590,7 +590,7 @@
   {
     "id": "env_linter",
     "name": "Env Linter",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Syntax checker and linter for .env environment files",
     "version": "0.1.0",
     "submodule": "env_linter",
@@ -609,7 +609,7 @@
   {
     "id": "git_changelog_generator",
     "name": "Git Changelog Generator",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Generate clean release changelogs from git commit logs",
     "version": "0.1.0",
     "submodule": "git_changelog_generator",
@@ -628,7 +628,7 @@
   {
     "id": "file_templates",
     "name": "File Templates",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Boilerplate code templates for new classes and modules",
     "version": "0.1.0",
     "submodule": "file_templates",
@@ -645,7 +645,7 @@
   {
     "id": "indent_guide_pro",
     "name": "Indent Guide Pro",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Enhanced indentation guides and block scope visualizers",
     "version": "0.1.0",
     "submodule": "indent_guide_pro",
@@ -664,7 +664,7 @@
   {
     "id": "whitespace_cleaner",
     "name": "Whitespace Cleaner",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Strip trailing whitespace and normalize end-of-line characters",
     "version": "0.1.0",
     "submodule": "whitespace_cleaner",
@@ -683,7 +683,7 @@
   {
     "id": "spell_checker",
     "name": "Spell Checker",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Inline spelling checker for source code comments and docstrings",
     "version": "0.1.0",
     "submodule": "spell_checker",
@@ -700,7 +700,7 @@
   {
     "id": "emmet_biscuit",
     "name": "Emmet Biscuit",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Emmet abbreviation expansion for rapid HTML and CSS authoring",
     "version": "0.1.0",
     "submodule": "emmet_biscuit",
@@ -719,7 +719,7 @@
   {
     "id": "bookmarks",
     "name": "Bookmarks",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Set, clear, and jump between line bookmarks in files",
     "version": "0.1.0",
     "submodule": "bookmarks",
@@ -738,7 +738,7 @@
   {
     "id": "ascii_art",
     "name": "ASCII Art",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Generate ASCII art text banners and box drawings",
     "version": "0.1.0",
     "submodule": "ascii_art",
@@ -757,7 +757,7 @@
   {
     "id": "git_status_bar",
     "name": "Git Status Bar",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Git branch, ahead/behind count, and dirty status in statusbar",
     "version": "0.1.0",
     "submodule": "git_status_bar",
@@ -776,7 +776,7 @@
   {
     "id": "pomodoro_timer",
     "name": "Pomodoro Timer",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Productivity Pomodoro focus and break interval timer",
     "version": "0.1.0",
     "submodule": "pomodoro_timer",
@@ -793,7 +793,7 @@
   {
     "id": "auto_save",
     "name": "Auto Save",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Configurable background auto-save timer for open buffers",
     "version": "0.1.0",
     "submodule": "auto_save",
@@ -810,7 +810,7 @@
   {
     "id": "auto_rename_tag",
     "name": "Auto Rename Tag",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Automatically synchronize opening and closing HTML/XML tags",
     "version": "0.1.0",
     "submodule": "auto_rename_tag",
@@ -829,7 +829,7 @@
   {
     "id": "path_autocomplete",
     "name": "Path Autocomplete",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "File and directory path completion within string literals",
     "version": "0.1.0",
     "submodule": "path_autocomplete",
@@ -846,7 +846,7 @@
   {
     "id": "color_picker",
     "name": "Color Picker",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Integrated color picker dialog and hex palette selector",
     "version": "0.1.0",
     "submodule": "color_picker",
@@ -865,7 +865,7 @@
   {
     "id": "calculator",
     "name": "Calculator",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Inline arithmetic expression evaluator and math tools",
     "version": "0.1.0",
     "submodule": "calculator",
@@ -882,7 +882,7 @@
   {
     "id": "dockerfile_helper",
     "name": "Dockerfile Helper",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Syntax highlighting and snippet helpers for Dockerfiles",
     "version": "0.1.0",
     "submodule": "dockerfile_helper",
@@ -901,7 +901,7 @@
   {
     "id": "quick_notes",
     "name": "Quick Notes",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Scratchpad panel for quick thoughts and temporary code snippets",
     "version": "0.1.0",
     "submodule": "quick_notes",
@@ -918,7 +918,7 @@
   {
     "id": "code_snapshot",
     "name": "Code Snapshot",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Export beautifully formatted code snippets as card images",
     "version": "0.1.0",
     "submodule": "code_snapshot",
@@ -937,7 +937,7 @@
   {
     "id": "project_dashboard",
     "name": "Project Dashboard",
-    "author": "billyeatcookies",
+    "author": "tomlin7",
     "description": "Project overview with git status, recent files, and stats",
     "version": "0.1.0",
     "submodule": "project_dashboard",
