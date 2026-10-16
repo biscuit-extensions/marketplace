@@ -14,16 +14,7 @@ import {
   Star,
   Download,
   Terminal,
-  Code2,
-  Wrench,
-  FileCode,
-  Palette,
-  Cpu,
-  Layout,
-  FileText,
-  Sliders,
 } from "lucide-react";
-import { CornerCrosshairs } from "./geometric-decorations";
 
 interface ExtensionDetailModalProps {
   extension: Extension | null;
@@ -37,7 +28,6 @@ export function ExtensionDetailModal({
   onClose,
 }: ExtensionDetailModalProps) {
   const [copied, setCopied] = useState(false);
-  const [copiedConfig, setCopiedConfig] = useState(false);
   const [activeTab, setActiveTab] = useState<"readme" | "quickstart" | "config">("readme");
 
   if (!extension) return null;
@@ -53,66 +43,35 @@ export function ExtensionDetailModal({
   const sampleConfig = `[extensions.${extension.id}]
 enabled = true
 auto_update = true
-# Additional extension-specific options
 `;
-
-  const handleCopyConfig = () => {
-    navigator.clipboard.writeText(sampleConfig);
-    setCopiedConfig(true);
-    setTimeout(() => setCopiedConfig(false), 2000);
-  };
-
-  const getCategoryIcon = (category: string) => {
-    switch (category) {
-      case "Languages":
-        return <Code2 className="h-3.5 w-3.5 text-sky-400" />;
-      case "Tools":
-        return <Wrench className="h-3.5 w-3.5 text-emerald-400" />;
-      case "Formatters":
-        return <FileCode className="h-3.5 w-3.5 text-purple-400" />;
-      case "Themes":
-        return <Palette className="h-3.5 w-3.5 text-pink-400" />;
-      case "Git":
-        return <GitBranch className="h-3.5 w-3.5 text-amber-400" />;
-      case "AI":
-        return <Cpu className="h-3.5 w-3.5 text-cyan-400" />;
-      case "UI":
-        return <Layout className="h-3.5 w-3.5 text-indigo-400" />;
-      default:
-        return <Code2 className="h-3.5 w-3.5 text-zinc-400" />;
-    }
-  };
 
   return (
     <Dialog open={isOpen} onOpenChange={(open) => !open && onClose()}>
-      <DialogContent className="max-w-2xl border border-[#202534] bg-[#0b0e14] p-0 text-zinc-100 overflow-hidden shadow-2xl rounded relative">
-        <CornerCrosshairs className="text-zinc-600" />
-
+      <DialogContent className="max-w-2xl border border-[#212530] bg-[#101218] p-0 text-zinc-100 overflow-hidden shadow-2xl rounded-lg">
         {/* Header content */}
-        <div className="border-b border-[#1a1f2b] p-6 pb-5 bg-[#090b10]">
+        <div className="border-b border-[#1b1f28] p-6 pb-5 bg-[#0e1015]">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <div className="flex items-center gap-2.5 flex-wrap">
-                <DialogTitle className="text-xl font-bold text-white tracking-tight">
+                <DialogTitle className="text-xl font-semibold text-white tracking-tight">
                   {extension.name}
                 </DialogTitle>
-                <span className="font-mono text-xs text-zinc-400 bg-[#141822] border border-[#212736] px-2 py-0.5 rounded">
+                <span className="font-mono text-xs text-zinc-400 bg-zinc-800/80 px-2 py-0.5 rounded">
                   v{extension.version}
                 </span>
-                <span className="flex items-center gap-1.5 text-xs text-zinc-300 bg-[#141822] border border-[#212736] px-2 py-0.5 rounded font-mono">
-                  {getCategoryIcon(extension.category)}
+                <span className="text-xs text-zinc-400 bg-zinc-800/80 px-2 py-0.5 rounded">
                   {extension.category}
                 </span>
               </div>
 
-              <div className="mt-2 flex items-center gap-3 text-xs text-zinc-400">
-                <span className="font-mono">author: @{extension.author}</span>
-                <span className="text-zinc-600">•</span>
+              <div className="mt-1.5 flex items-center gap-3 text-xs text-zinc-400">
+                <span>by @{extension.author}</span>
+                <span>•</span>
                 <span className="flex items-center gap-1">
                   <Download className="h-3 w-3" />
                   {extension.downloads?.toLocaleString() || "1,200"} installs
                 </span>
-                <span className="text-zinc-600">•</span>
+                <span>•</span>
                 <span className="flex items-center gap-1 text-amber-400">
                   <Star className="h-3 w-3 fill-amber-400" />
                   {extension.rating || "4.8"}
@@ -125,13 +84,9 @@ auto_update = true
                 asChild
                 variant="outline"
                 size="sm"
-                className="h-8 border-[#242b3a] bg-[#121620] text-xs text-zinc-300 hover:bg-zinc-800 hover:text-white"
+                className="h-8 border-[#262b38] bg-[#141720] text-xs text-zinc-300 hover:bg-zinc-800 hover:text-white"
               >
-                <a
-                  href={extension.repoUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={extension.repoUrl} target="_blank" rel="noopener noreferrer">
                   <GitBranch className="h-3.5 w-3.5 mr-1.5 text-zinc-400" />
                   Source
                   <ExternalLink className="h-3 w-3 ml-1.5 opacity-60" />
@@ -144,25 +99,25 @@ auto_update = true
             {extension.description}
           </p>
 
-          {/* Quick Install Command Box */}
-          <div className="mt-4 flex items-center justify-between rounded border border-[#212736] bg-[#07080c] px-3.5 py-2 font-mono text-xs text-zinc-300">
+          {/* Install Command */}
+          <div className="mt-4 flex items-center justify-between rounded-md border border-[#232835] bg-[#090b0e] px-3 py-2 font-mono text-xs text-zinc-300">
             <div className="flex items-center gap-2 overflow-x-auto">
-              <span className="text-amber-400/80 select-none">$</span>
+              <span className="text-zinc-500 select-none">$</span>
               <span className="select-all">{installCmd}</span>
             </div>
             <button
               onClick={handleCopy}
-              className="flex items-center gap-1 px-2 py-1 rounded text-xs text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors ml-2 font-sans"
+              className="flex items-center gap-1 px-2 py-1 rounded text-xs text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors ml-2"
             >
               {copied ? (
                 <>
                   <Check className="h-3.5 w-3.5 text-emerald-400" />
-                  <span className="text-emerald-400 text-xs">Copied</span>
+                  <span className="text-emerald-400 font-sans">Copied</span>
                 </>
               ) : (
                 <>
                   <Copy className="h-3.5 w-3.5 text-zinc-500" />
-                  <span>Copy</span>
+                  <span className="font-sans">Copy</span>
                 </>
               )}
             </button>
@@ -170,39 +125,36 @@ auto_update = true
         </div>
 
         {/* Tab switcher */}
-        <div className="flex items-center border-b border-[#1a1f2b] bg-[#080a0e] px-6 text-xs font-mono">
+        <div className="flex items-center border-b border-[#1b1f28] bg-[#0c0e13] px-6 text-xs">
           <button
             onClick={() => setActiveTab("readme")}
-            className={`flex items-center gap-1.5 border-b-2 px-3 py-2.5 font-medium transition-colors ${
+            className={`border-b-2 px-3 py-2.5 font-medium transition-colors ${
               activeTab === "readme"
                 ? "border-amber-400 text-white"
                 : "border-transparent text-zinc-400 hover:text-zinc-200"
             }`}
           >
-            <FileText className="h-3 w-3" />
-            <span>OVERVIEW</span>
+            Overview
           </button>
           <button
             onClick={() => setActiveTab("quickstart")}
-            className={`flex items-center gap-1.5 border-b-2 px-3 py-2.5 font-medium transition-colors ${
+            className={`border-b-2 px-3 py-2.5 font-medium transition-colors ${
               activeTab === "quickstart"
                 ? "border-amber-400 text-white"
                 : "border-transparent text-zinc-400 hover:text-zinc-200"
             }`}
           >
-            <Terminal className="h-3 w-3" />
-            <span>INSTALLATION</span>
+            Installation
           </button>
           <button
             onClick={() => setActiveTab("config")}
-            className={`flex items-center gap-1.5 border-b-2 px-3 py-2.5 font-medium transition-colors ${
+            className={`border-b-2 px-3 py-2.5 font-medium transition-colors ${
               activeTab === "config"
                 ? "border-amber-400 text-white"
                 : "border-transparent text-zinc-400 hover:text-zinc-200"
             }`}
           >
-            <Sliders className="h-3 w-3" />
-            <span>CONFIG</span>
+            Configuration
           </button>
         </div>
 
@@ -211,105 +163,58 @@ auto_update = true
           {activeTab === "readme" && (
             <div className="space-y-4">
               <div>
-                <h4 className="text-xs uppercase tracking-wider font-mono text-zinc-400 mb-1.5">
-                  Package Overview
+                <h4 className="text-sm font-semibold text-white mb-1.5">
+                  About this package
                 </h4>
-                <p className="text-zinc-300 text-xs sm:text-sm leading-relaxed">
-                  {extension.description}. Developed specifically for Biscuit to provide seamless integration with the core editor workflow.
+                <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed">
+                  {extension.description}. Designed for Biscuit code editor to provide smooth development workflows.
                 </p>
               </div>
 
               {extension.tags && extension.tags.length > 0 && (
                 <div>
-                  <h5 className="text-xs uppercase tracking-wider font-mono text-zinc-400 mb-2">
-                    Metadata Tags
+                  <h5 className="text-xs font-medium text-zinc-400 mb-2">
+                    Tags
                   </h5>
                   <div className="flex flex-wrap gap-1.5">
                     {extension.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="font-mono rounded border border-[#212736] bg-[#121622] px-2 py-0.5 text-xs text-zinc-400"
+                        className="rounded-md border border-zinc-800 bg-zinc-900/60 px-2 py-0.5 text-xs text-zinc-400"
                       >
-                        #{tag}
+                        {tag}
                       </span>
                     ))}
                   </div>
                 </div>
               )}
-
-              <div className="rounded border border-[#1d2332] bg-[#080a0e] p-3 text-xs font-mono space-y-1.5 text-zinc-400">
-                <div className="flex justify-between">
-                  <span>IDENTIFIER:</span>
-                  <span className="text-zinc-200">{extension.id}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>CATEGORY:</span>
-                  <span className="text-zinc-200">{extension.category}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>COMPATIBILITY:</span>
-                  <span className="text-emerald-400">Biscuit v0.1.0+</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>LICENSE:</span>
-                  <span className="text-zinc-200">MIT / Open Source</span>
-                </div>
-              </div>
             </div>
           )}
 
           {activeTab === "quickstart" && (
-            <div className="space-y-4">
-              <div>
-                <h4 className="text-xs uppercase tracking-wider font-mono text-zinc-400 mb-1.5">
-                  CLI Installation
-                </h4>
-                <p className="text-xs text-zinc-400 mb-2">
-                  Execute this command in your terminal where Biscuit is installed:
-                </p>
-                <div className="rounded border border-[#212736] bg-[#07080c] p-3 font-mono text-xs text-zinc-200">
-                  biscuit ext install {extension.id}
-                </div>
+            <div className="space-y-3">
+              <h4 className="text-sm font-semibold text-white">Using the Biscuit CLI</h4>
+              <p className="text-xs text-zinc-400">
+                Run the following command in your terminal to install this package:
+              </p>
+
+              <div className="rounded-md border border-zinc-800 bg-[#090b0e] p-3 font-mono text-xs text-zinc-300 space-y-1">
+                <div>biscuit ext install {extension.id}</div>
               </div>
 
-              <div>
-                <h4 className="text-xs uppercase tracking-wider font-mono text-zinc-400 mb-1.5">
-                  In-Editor Command Palette
-                </h4>
-                <p className="text-xs text-zinc-400">
-                  Press <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded font-mono text-[11px]">Ctrl+Shift+P</kbd> (or <kbd className="px-1.5 py-0.5 bg-zinc-800 rounded font-mono text-[11px]">⌘Shift+P</kbd> on macOS) and type:
-                </p>
-                <div className="mt-1.5 rounded border border-[#212736] bg-[#07080c] p-2.5 font-mono text-xs text-amber-300">
-                  Extensions: Install {extension.name}
-                </div>
-              </div>
+              <p className="text-xs text-zinc-400 pt-2">
+                Inside the editor, open the command palette and run <em>Install Extension: {extension.name}</em>.
+              </p>
             </div>
           )}
 
           {activeTab === "config" && (
             <div className="space-y-3">
-              <div className="flex items-center justify-between">
-                <h4 className="text-xs uppercase tracking-wider font-mono text-zinc-400">
-                  Workspace biscuit.toml
-                </h4>
-                <button
-                  onClick={handleCopyConfig}
-                  className="text-xs font-mono text-zinc-400 hover:text-white flex items-center gap-1"
-                >
-                  {copiedConfig ? (
-                    <>
-                      <Check className="h-3 w-3 text-emerald-400" />
-                      <span className="text-emerald-400">Copied</span>
-                    </>
-                  ) : (
-                    <>
-                      <Copy className="h-3 w-3" />
-                      <span>Copy snippet</span>
-                    </>
-                  )}
-                </button>
-              </div>
-              <pre className="rounded border border-[#212736] bg-[#07080c] p-3 font-mono text-xs text-zinc-300 overflow-x-auto leading-relaxed">
+              <h4 className="text-sm font-semibold text-white">Settings</h4>
+              <p className="text-xs text-zinc-400">
+                You can configure this extension in your workspace <code>biscuit.toml</code>:
+              </p>
+              <pre className="rounded-md border border-zinc-800 bg-[#090b0e] p-3 font-mono text-xs text-zinc-300 overflow-x-auto">
                 {sampleConfig}
               </pre>
             </div>
@@ -317,24 +222,22 @@ auto_update = true
         </div>
 
         {/* Modal footer */}
-        <div className="flex items-center justify-between border-t border-[#1a1f2b] bg-[#080a0e] px-6 py-3 text-xs">
-          <span className="text-zinc-500 font-mono text-[11px]">
-            PKG: {extension.id}
-          </span>
+        <div className="flex items-center justify-between border-t border-[#1b1f28] bg-[#0c0e12] px-6 py-3 text-xs">
+          <span className="text-zinc-500 font-mono">id: {extension.id}</span>
           <Button
             size="sm"
             onClick={handleCopy}
-            className="h-8 bg-amber-400 hover:bg-amber-300 text-zinc-950 font-medium text-xs rounded"
+            className="h-8 bg-zinc-100 hover:bg-white text-zinc-900 font-medium text-xs rounded-md"
           >
             {copied ? (
               <>
-                <Check className="h-3.5 w-3.5 mr-1" />
+                <Check className="h-3.5 w-3.5 mr-1 text-emerald-600" />
                 Copied
               </>
             ) : (
               <>
-                <Terminal className="h-3.5 w-3.5 mr-1" />
-                biscuit ext install
+                <Terminal className="h-3.5 w-3.5 mr-1 text-zinc-700" />
+                Install
               </>
             )}
           </Button>
